@@ -38,3 +38,41 @@ for (let i = 0; i <colleagues.length; i++) {
  }else{
     console.log("your not correct")
  }
+
+
+ function jump(){
+   console.log("Dino jump")
+ }
+ jump()
+
+ function addprices(item1,item2,item3){
+   let totalprice=item1+item2+item3
+   console.log(totalprice)
+ }
+ addprices(10,20,30)
+
+
+
+
+ function addprice (item1,item2){
+   let total =item1+item2
+   return total;
+ }
+ addprice (10,10)
+
+ function tax (totalprice,taxpercentage){
+   let tax= totalprice*taxpercentage
+   return tax;
+ }
+ console.log((tax(50,30)))
+ let total = addprice(10,10)+tax(addprice(10,10),0.5)
+ console.log (total)
+ 
+ 
+
+ function addprices(item1,item2,item3){
+   let totalprice=item1+item2+item3
+   console.log(totalprice)
+ }
+ addprices(180,30,50)
+ 

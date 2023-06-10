@@ -75,4 +75,7 @@ for (let i = 0; i <colleagues.length; i++) {
    console.log(totalprice)
  }
  addprices(180,30,50)
+
+
+ 
  
